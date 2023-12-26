@@ -131,6 +131,10 @@ async def baca(ctx):
         document = t.read()
         await ctx.send(document)
 
+@bot.command()
+async def solusipolusi(ctx):
+    await ctx.send('Teknologi pembersih udara, atau air purifier, hadir sebagai solusi inovatif di tempat umum dengan menggunakan filter canggih dan deteksi polusi udara untuk menghilangkan partikel berbahaya, seperti debu, polutan udara, dan virus, menciptakan lingkungan yang lebih bersih dan sehat serta meningkatkan kenyamanan dan produktivitas.')
+
 # welcome message
 @bot.command()
 async def joined(ctx, member: discord.Member):
